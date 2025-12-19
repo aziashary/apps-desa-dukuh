@@ -55,7 +55,7 @@
               
               <!-- /.card-body -->
             </div>
-            <a type="button" class="btn btn-primary" href="{{ url('kontak/edit/'. $kontak->id_kontak) }}"><i class="fas fa-edit"></i>Edit</a>
+            <a type="button" class="btn btn-primary" href="{{ url('admindesa/kontak/edit/'. $kontak->id_kontak) }}"><i class="fas fa-edit"></i>Edit</a>
               </a>
             <!-- /.card -->
             @endforeach

@@ -26,7 +26,7 @@
                   <h3>Misi</h3>
                   <p>{{$visimisi->misi}}</p>
                 </div>
-                <a type="button" class="btn btn-primary" href="{{ url('visimisi/edit/'. $visimisi->id_visimisi) }}"><i class="fas fa-edit"></i>Edit</a>
+                <a type="button" class="btn btn-primary" href="{{ url('admindesa/visimisi/edit/'. $visimisi->id_visimisi) }}"><i class="fas fa-edit"></i>Edit</a>
                 </a>
               </div>
               <!-- /.card-body -->

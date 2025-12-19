@@ -19,7 +19,7 @@
             <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
               <ol class="breadcrumb float-sm-right">
                 <div class="btn-group">
-                  <a href="{{ url('sejarah/edit/'. $sejarah->id_sejarah) }}" class="center btn btn-gradient btn-primary" title="edit">Edit</i></a>
+                  <a href="{{ url('admindesa/sejarah/edit/'. $sejarah->id_sejarah) }}" class="center btn btn-gradient btn-primary" title="edit">Edit</i></a>
                 </div>
               </ol>
             </nav>
